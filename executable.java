@@ -17,20 +17,21 @@ public class executable {
                 // switch para seleccionar el tipo de emergencia
                 switch (option) {
                     case 1:
-                    // Seleccionar producto
-                    añadirproducto.agregarAlCarrito(scanner);
+                        // Seleccionar producto
+                        produtos.agregarAlCarrito(scanner);
                         break;
                     case 2:
-                    // Ver productos en el carrito
+                        // Ver productos en el carrito
+                        produtos.productosEnCarrito(scanner);
                         break;
                     case 3:
-                    // Eliminar producto del carrito
+                        // Eliminar producto del carrito
                         break;
                     case 4:
-                    // Ver total a pagar
+                        // Ver total a pagar
                         break;
                     case 5:
-                    // Salir
+                        // Salir
                         exit = true;
                         break;
                     default:

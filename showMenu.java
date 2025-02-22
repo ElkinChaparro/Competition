@@ -18,17 +18,16 @@ public class showMenu {
                 + ConsoleColor.cyanText("-=========|"));
         System.out.println(
                 ConsoleColor.cyanText("|===========================================================|"));
-        System.out.println(ConsoleColor.cyanText("|-")
-                + " 1. Agregar producto al carrito                           "
-                + ConsoleColor.cyanText("|"));
-        System.out.println(ConsoleColor.cyanText("|-") + " 2. Ver productos en el carrito                           "
-                + ConsoleColor.cyanText("|"));
-        System.out.println(ConsoleColor.cyanText("|-") + " 3. Eliminar producto del carrito                         "
-                + ConsoleColor.cyanText("|"));
-        System.out.println(ConsoleColor.cyanText("|-") + " 4. Ver total a pagar                                     "
-                + ConsoleColor.cyanText("|"));
-        System.out.println(ConsoleColor.cyanText("|-") + " 5. Salir                                                 "
-                + ConsoleColor.cyanText("|"));
+        System.out.println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText("1. Agregar producto al carrito")
+                + ConsoleColor.cyanText("                            |"));
+        System.out.println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText("2. Ver productos en el carrito")
+                + ConsoleColor.cyanText("                            |"));
+        System.out.println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText("3. Eliminar producto del carrito")
+                + ConsoleColor.cyanText("                          |"));
+        System.out.println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText("4. Ver total a pagar")
+                + ConsoleColor.cyanText("                                      |"));
+        System.out
+                .println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText("5. Salir") + ConsoleColor.cyanText("                                                  |"));
         System.out.println(
                 ConsoleColor.cyanText("|===========================================================|"));
         System.out.print(ConsoleColor.orangeText("|- Seleccione una opcion: "));
