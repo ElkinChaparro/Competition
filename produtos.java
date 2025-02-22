@@ -59,4 +59,19 @@ public class produtos {
         System.out.print(ConsoleColor.orangeText("|- Presione enter para continuar"));
         scanner.nextLine();
     }
+    public static void productosEnelCarrito(Scanner scanner) {
+        System.out.println(ConsoleColor.cyanText("|===========================================================|"));
+        System.out.println(ConsoleColor.cyanText("|================-") + ConsoleColor.blueText("PRODUCTOS EN EL CARRITO") + ConsoleColor.cyanText("-==================|"));
+        System.out.println(ConsoleColor.cyanText("|===========================================================|"));
+        if (productoSeleccionado.size() == 0) {
+            System.out.println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText(" No hay productos en el carrito") + ConsoleColor.cyanText("                           -|"));
+        } else {
+            for (int i = 0; i < productoSeleccionado.size(); i++) {
+                System.out.println(ConsoleColor.cyanText("|-") + ConsoleColor.blueText(" " + (i + 1) + ". " + productoSeleccionado.get(i) + " - $" + precioSeleccionado.get(i)));
+            }
+        }
+        System.out.println(ConsoleColor.cyanText("|===========================================================|"));
+        System.out.print(ConsoleColor.orangeText("|- Presione enter para continuar"));
+        scanner.nextLine();
+    }
 }
